@@ -1,0 +1,23 @@
+@import url('https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css');
+
+:root {
+  /* فونت‌ها و اندازه‌ها */
+  --font-main: 'Vazirmatn', sans-serif;
+  --fs-base: 1rem;
+  --fs-lg: 1.2rem;
+  --fs-title: clamp(2rem, 5vw, 3.5rem);
+  
+  /* فاصله‌ها */
+  --space-2: 0.5rem;
+  --space-4: 1.5rem;
+  --space-6: 3rem;
+  --space-8: 5rem;
+  
+  /* پالت رنگی (سرمه‌ای، نارنجی، کرم) */
+  --bg-light: #FAF6F0;      /* پس‌زمینه کرم */
+  --bg-dark: #0B132B;       /* سرمه‌ای تیره */
+  --text-main: #1C2541;     /* متن تیره */
+  --text-light: #FFFFFF;    /* متن روشن */
+  --accent: #fc9d50;        /* نارنجی */
+  --accent-hover: #d45e40;  /* نارنجی تیره‌تر */
+}
