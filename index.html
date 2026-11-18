@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>مرکز رشد و نوآوری</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- بنر و هدر -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        
+        <!-- هدر اینجاست -->
+        <header class="header">
+            <div class="container header-inner">
+                <a href="#" class="logo">
+                    <span class="logo-icon">R</span>
+                    <span>Roshd</span>
+                </a>
+                <nav class="nav">
+    <a href="index.html" class="nav-link active">خانه</a>
+    <a href="about.html" class="nav-link">درباره ما</a>
+    <a href="services.html" class="nav-link">خدمات</a>
+    <a href="events.html" class="nav-link">رویدادها</a>
+    <a href="contact.html" class="nav-link">تماس</a>
+    <a href="join.html" class="nav-link">ثبت‌نام</a>
+</nav>
+            </div>
+        </header>
+
+        <!-- متن‌های روی بنر -->
+        <div class="container hero-content">
+            <h1 class="hero-title">
+                شاید <span class="highlight">ایده‌ای</span> داشته باشی که هنوز جدی‌ش نگرفته‌ای
+            </h1>
+            <p class="hero-subtitle">
+                اینجا قرار نیست از اول کامل باشی، کافیه ایده‌ات رو باور کنی و کنار هم قدم به قدم رشد کنیم.
+            </p>
+            <a href="#" class="btn btn-primary">دریافت مشاوره تخصصی</a>
+        </div>
+    </section>
+<!-- بخش خدمات -->
+<section class="services">
+    <div class="container">
+        <div class="section-header">
+            <span class="badge">چی برات داریم؟</span>
+            <h2>خدمات مرکز رشد</h2>
+            <p>مسیر تبدیل ایده به کسب‌وکار رو با ما طی کن</p>
+        </div>
+        
+        <div class="services-grid">
+            <!-- کارت ۱ -->
+            <div class="service-card reveral">
+                <div class="icon-box">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <h3>کارگاه‌های آموزشی</h3>
+                <p>یادگیری مهارت‌های کاربردی با حضور اساتید مجرب و متخصصان صنعت.</p>
+            </div>
+            
+            <!-- کارت ۲ (این یکی رو کمی برجسته‌تر می‌کنیم) -->
+            <div class="service-card featured reveral">
+                <div class="icon-box">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6"/><path d="M10 22h4"/><path d="M15.09 14c.18-.98.65-1.74 1.41-2.5A4.65 4.65 0 0 0 18 8 6 6 0 0 0 6 8c0 1 .23 2.23 1.5 3.5A4.61 4.61 0 0 1 8.91 14"/></svg>
+                </div>
+                <h3>مشاوره و ارزیابی ایده</h3>
+                <p>بررسی ایده‌ها، تحلیل بازار و راهنمایی برای تبدیل فکر به محصول.</p>
+            </div>
+            
+            <!-- کارت ۳ -->
+            <div class="service-card reveral">
+                <div class="icon-box">
+                    <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <h3>منتورینگ و همراهی</h3>
+                <p>همراهی متخصصان و منتورهای باتجربه در مسیر رشد کسب‌وکار شما.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- بخش ایده‌ت چیه؟ -->
+<section class="idea-section">
+    <!-- شکل‌های هندسی پس‌زمینه -->
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+
+    <div class="container idea-content">
+        <h2 class="idea-title">ایده‌ت چیه؟ بنویس، با هم جدی‌اش می‌کنیم 🌱</h2>
+        <p class="idea-desc">مهم نیست ایده‌ت چقدر بزرگ یا کوچیکه. فقط کافیه اولین قدم رو برداری.</p>
+        
+        <div class="idea-box">
+            <textarea id="ideaInput" placeholder="ایده‌ات رو اینجا بنویس... (مثلاً: یه اپلیکیشن برای پیدا کردن هم‌تیمی)"></textarea>
+            <button id="submitIdea" class="btn btn-primary">ارسال ایده</button>
+            <p id="ideaResponse" class="idea-response"></p>
+        </div>
+    </div>
+</section>
+<!-- بخش آمار و دستاوردها -->
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-grid">
+            
+            <!-- کارت ۱ -->
+            <div class="stat-card reveral">
+                <div class="stat-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+                </div>
+                <h3 class="stat-number" data-target="50">0</h3>
+                <p class="stat-title">کارگاه برگزارشده</p>
+            </div>
+
+            <!-- کارت ۲ -->
+            <div class="stat-card reveral">
+                <div class="stat-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+                </div>
+                <h3 class="stat-number" data-target="20">0</h3>
+                <p class="stat-title">تیم و ایده فعال</p>
+            </div>
+
+            <!-- کارت ۳ -->
+            <div class="stat-card reveral">
+                <div class="stat-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                </div>
+                <h3 class="stat-number" data-target="15">0</h3>
+                <p class="stat-title">منتور و متخصص</p>
+            </div>
+
+            <!-- کارت ۴ -->
+            <div class="stat-card reveral">
+                <div class="stat-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                </div>
+                <h3 class="stat-number" data-target="300">0</h3>
+                <p class="stat-title">دانشجوی همراه</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+<!-- بخش سوالات متداول (FAQ) -->
+<!-- بخش سوالات متداول (FAQ) -->
+<section class="faq-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>سوالات متداول</h2>
+            <p>جواب سوالات پرتکرار شما درباره مرکز رشد</p>
+        </div>
+
+        <div class="faq-container">
+            <details class="faq-item">
+                <summary>آیا برای عضویت در مرکز رشد باید حتماً ایده داشته باشم؟</summary>
+                <p>خیر، لازم نیست ایده‌ی کاملاً مشخصی داشته باشید. ما اینجاییم تا با مشاوره و کارگاه‌های آموزشی، به شما در پیدا کردن و پرورش ایده‌تان کمک کنیم. فقط کافیه علاقه‌مند به یادگیری و ساختن آینده باشید.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>خدمات مرکز رشد فقط برای دانشجویان است؟</summary>
+                <p>تمرکز اصلی ما روی دانشجویان و فارغ‌التحصیلان جوان است، اما صاحبان ایده و علاقه‌مندان به کارآفرینی از هر قشری می‌توانند از خدمات ما استفاده کنند.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>آیا استفاده از خدمات هزینه‌ای دارد؟</summary>
+                <p>بسیاری از خدمات ما مانند مشاوره‌های اولیه و برخی کارگاه‌ها رایگان است. برای دوره‌های تخصصی و فضاهای کار اشتراکی، هزینه‌ها با توجه به شرایط شما و توافق طرفین مشخص می‌شود.</p>
+            </details>
+
+            <details class="faq-item">
+                <summary>چطور می‌توانم ایده‌ام را به شما ارائه دهم؟</summary>
+                <p>شما می‌توانید از طریق صفحه «ثبت‌نام» فرم درخواست پذیرش را پر کنید. همچنین می‌توانید از بخش «ایده‌ت چیه؟» در صفحه اصلی، ایده خود را به صورت خلاصه بنویسید تا تیم ما با شما ارتباط بگیرد.</p>
+            </details>
+        </div>
+    </div>
+</section>
+<!-- فوتر (Footer) -->
+<footer class="footer">
+    <div class="container footer-grid">
+        <!-- ستون ۱: لوگو و معرفی -->
+        <div class="footer-col">
+            <a href="#" class="logo footer-logo">
+                <span class="logo-icon">R</span>
+                <span>Roshd</span>
+            </a>
+            <p class="footer-desc">
+                مرکز رشد و نوآوری؛ از ایده تا رشد، از مساله تا راهکار. ما اینجاییم تا ایده‌های شما رو به واقعیت تبدیل کنیم.
+            </p>
+        </div>
+
+        <!-- ستون ۲: لینک‌های سریع -->
+        <div class="footer-col">
+            <h3>دسترسی سریع</h3>
+            <ul class="footer-links">
+                <li><a href="#">خانه</a></li>
+                <li><a href="#">درباره ما</a></li>
+                <li><a href="#">خدمات</a></li>
+                <li><a href="#">رویدادها</a></li>
+            </ul>
+        </div>
+
+        <!-- ستون ۳: اطلاعات تماس -->
+        <div class="footer-col">
+            <h3>تماس با ما</h3>
+            <ul class="footer-contact">
+                <li>📍 تهران، خیابان دانشگاه، مرکز رشد</li>
+                <li>📞 ۰۲۱-۱۲۳۴۵۶۷۸</li>
+                <li>✉️ info@roshd.ir</li>
+            </ul>
+        </div>
+
+        <!-- ستون ۴: شبکه‌های اجتماعی -->
+        <div class="footer-col">
+            <h3>همراه ما باشید</h3>
+            <p class="footer-social-text">ما را در شبکه‌های اجتماعی دنبال کنید.</p>
+            <div class="social-icons">
+                <a href="#">اینستاگرام</a>
+                <a href="#">لینکدین</a>
+                <a href="#">تلگرام</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- کپی‌رایت -->
+    <div class="footer-bottom">
+        <div class="container">
+            <p>© ۱۴۰۳ مرکز رشد و نوآوری | تمامی حقوق محفوظ است.</p>
+        </div>
+    </div>
+</footer>
+<script src="js/theme.js"></script>
+</body>
+</html>

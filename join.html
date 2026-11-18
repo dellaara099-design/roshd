@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت‌نام و پذیرش | مرکز رشد</title>
+    <link rel="stylesheet" href="css/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!-- هدر -->
+    <header class="header page-header">
+        <div class="container header-inner">
+            <a href="index.html" class="logo">
+                <span class="logo-icon">R</span>
+                <span class="logo-text">Roshd</span>
+            </a>
+            <nav class="nav">
+                <a href="index.html" class="nav-link">خانه</a>
+                <a href="about.html" class="nav-link">درباره ما</a>
+                <a href="services.html" class="nav-link">خدمات</a>
+                <a href="contact.html" class="nav-link">تماس</a>
+                <a href="join.html" class="nav-link active">ثبت‌نام</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- بنر بالای صفحه -->
+    <section class="page-banner">
+        <div class="container">
+            <h1 class="page-title">به ما بپیوندید</h1>
+            <p class="page-subtitle">اولین قدم برای تبدیل ایده‌تان به یک کسب‌وکار واقعی</p>
+        </div>
+    </section>
+
+    <!-- بخش فرم عضویت -->
+    <section class="join-section">
+        <div class="container join-grid">
+            
+            <div class="join-text">
+                <h2>چرا مرکز رشد؟</h2>
+                <p>ما فقط یک مکان نیستیم؛ ما یک تیم همراه هستیم. با پیوستن به ما، به منابع، منتورها و فضایی برای رشد دسترسی پیدا می‌کنید.</p>
+                <ul class="join-features">
+                    <li>✓ فضای کار اشتراکی</li>
+                    <li>✓ دسترسی به منتورهای متخصص</li>
+                    <li>✓ شرکت در کارگاه‌های تخصصی</li>
+                    <li>✓ شبکه‌سازی با سایر تیم‌ها</li>
+                </ul>
+            </div>
+
+            <div class="join-form-box">
+                <h2>فرم درخواست پذیرش</h2>
+                <form id="joinForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fullName">نام و نام خانوادگی</label>
+                            <input type="text" id="fullName" placeholder="مثلاً علی رضایی" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">شماره تماس</label>
+                            <input type="tel" id="phone" placeholder="۰۹۱۲۳۴۵۶۷۸۹" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">ایمیل</label>
+                        <input type="email" id="email" placeholder="example@email.com" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="major">رشته تحصیلی / تخصص</label>
+                        <input type="text" id="major" placeholder="مثلاً مهندسی کامپیوتر" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="idea">توضیح مختصر ایده (اختیاری)</label>
+                        <textarea id="idea" rows="4" placeholder="اگر ایده‌ای دارید، در چند خط توضیح دهید..."></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">ارسال درخواست</button>
+                    <p id="joinResponse" class="form-response"></p>
+                </form>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- فوتر -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="index.html" class="logo footer-logo">
+                    <span class="logo-icon">R</span>
+                    <span>Roshd</span>
+                </a>
+                <p class="footer-desc">مرکز رشد و نوآوری؛ از ایده تا رشد، از مساله تا راهکار.</p>
+            </div>
+            <div class="footer-col">
+                <h3>دسترسی سریع</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">خانه</a></li>
+                    <li><a href="about.html">درباره ما</a></li>
+                    <li><a href="services.html">خدمات</a></li>
+                    <li><a href="contact.html">تماس</a></li>
+                    <li><a href="join.html">ثبت‌نام</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>© ۱۴۰۳ مرکز رشد و نوآوری | تمامی حقوق محفوظ است.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/theme.js"></script>
+</body>
+</html>
